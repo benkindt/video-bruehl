@@ -4,9 +4,11 @@
 <meta charset="utf-8" />
 <link href="../lib/video-js.css" rel="stylesheet">
 <link href="../lib/bootstrap-3.3.7.min.css" rel="stylesheet">
+<link href="../lib/ol.css" rel="stylesheet">
 <link href="../css/bruehl-style.css" rel="stylesheet">
 <script src="../lib/jquery-3.2.1.min.js"></script>
 <script src="../lib/bootstrap-3.3.7.min.js"></script>
+<script src="../lib/ol.js"></script>
 <title>Bruehl Player</title>
 </head>
 
@@ -40,10 +42,9 @@
 				<div class="panel panel-default">
 					<div class="panel-heading">Ort</div>
 					<div class="panel-body">
-						Bezeichnung: <span id="locationName">Ecke Brühl/Zöllnerstraße</span>
-						<br />
-						Koordinaten: <span id="locationCoordinates">50.805123, 12.900771</span>
-						<br />
+						Bezeichnung: <span id="locationName">Ecke
+							Brühl/Zöllnerstraße</span> <br /> Koordinaten: <span
+							id="locationCoordinates">50.805123, 12.900771</span> <br />
 						Blickrichtung: <span id="locationDirection">Nord-Ost</span>
 					</div>
 				</div>
@@ -131,9 +132,15 @@
 		</div>
 		<!-- botWrapper with overview map in it -->
 		<div class="row" id="botWrapper">
-			<div class="col-md-6" id="overviewMap">[#overviewMap]</div>
+			<div class="col-md-6" id="overviewMap">
+				[#overviewMap]
+				<div id="mapid" style="width: 965px; height: 396px;"></div>
+				<button id="resetViewButton">reset view</button>
+				<script src="../js/map.js"></script>
+			</div>
 		</div>
 	</div>
+	<br/>
 	<script src="../lib/video.js"></script>
 </body>
 </html>
