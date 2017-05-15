@@ -2,21 +2,6 @@
 <!-- Mit XMLSpy v2017 rel. 3 (x64) (http://www.altova.com) von Steve Conrad (Steve Conrad) bearbeitet -->
 <interactive_media>
 	<videos>
-		<video id="1">
-			<filename>SCF_0001.MP4</filename>
-			<filesize/>
-			<length/>
-			<street>Brühl/Georgstraße</street>
-			<direction_of_view>NNO</direction_of_view>
-			<coordinates>50.841061, 12.923712</coordinates>
-			<POIs>
-				<POI id="">
-					<name/>
-					<description/>
-					<URL/>
-				</POI>
-			</POIs>
-		</video>
 		<video id="2">
 			<filename>SCF_0002.MP4</filename>
 			<filesize/>
@@ -31,6 +16,24 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>3</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>4</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="3">
 			<filename>SCF_0003.MP4</filename>
@@ -46,6 +49,24 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>2</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>4</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="4">
 			<filename>SCF_0004.MP4</filename>
@@ -61,6 +82,32 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>2</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>3</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>8</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="5">
 			<filename>SCF_0005.MP4</filename>
@@ -76,6 +123,32 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>6</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>7</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>8</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="6">
 			<filename>SCF_0006.MP4</filename>
@@ -91,6 +164,40 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>7</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>8</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>5</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>3</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="7">
 			<filename>SCF_0007.MP4</filename>
@@ -106,6 +213,32 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>8</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>5</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>6</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="8">
 			<filename>SCF_0008.MP4</filename>
@@ -121,6 +254,40 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>5</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>6</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>7</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>9</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="9">
 			<filename>SCF_0009.MP4</filename>
@@ -136,6 +303,40 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>11</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>12</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>10</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>14</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="10">
 			<filename>SCF_0010.MP4</filename>
@@ -151,6 +352,32 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>9</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>11</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>12</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="11">
 			<filename>SCF_0011.MP4</filename>
@@ -166,6 +393,32 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>12</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>10</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>9</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="12">
 			<filename>SCF_0012.MP4</filename>
@@ -181,6 +434,40 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>10</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>9</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>11</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>6</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="13">
 			<filename>SCF_0013.MP4</filename>
@@ -196,21 +483,32 @@
 					<URL/>
 				</POI>
 			</POIs>
-		</video>
-		<video id="14">
-			<filename>SCF_0014.MP4</filename>
-			<filesize/>
-			<length/>
-			<street>Brühl</street>
-			<direction_of_view>NNO</direction_of_view>
-			<coordinates> 50.843325, 12.925230</coordinates>
-			<POIs>
-				<POI id="">
-					<name/>
-					<description/>
-					<URL/>
-				</POI>
-			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>16</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>15</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>17</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="15">
 			<filename>SCF_0015.MP4</filename>
@@ -226,6 +524,32 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>14</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>16</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>12</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="16">
 			<filename>SCF_0016.MP4</filename>
@@ -241,6 +565,24 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>15</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>14</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="17">
 			<filename>SCF_0017.MP4</filename>
@@ -256,6 +598,40 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>20</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>17</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>19</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>21</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="18">
 			<filename>SCF_0018.MP4</filename>
@@ -271,6 +647,40 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>19</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>17</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>20</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>15</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="19">
 			<filename>SCF_0019.MP4</filename>
@@ -286,6 +696,32 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>21</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>20</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>18</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="20">
 			<filename>SCF_0020.MP4</filename>
@@ -301,6 +737,32 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>18</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>19</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>21</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="21">
 			<filename>SCF_0021.MP4</filename>
@@ -316,6 +778,40 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>20</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>22</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>19</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>27</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="22">
 			<filename>SCF_0022.MP4</filename>
@@ -331,21 +827,40 @@
 					<URL/>
 				</POI>
 			</POIs>
-		</video>
-		<video id="23">
-			<filename>SCF_0023.MP4</filename>
-			<filesize/>
-			<length/>
-			<street>Brühl/Zöllnerstraße/Zöllnerplatz</street>
-			<direction_of_view>NNO</direction_of_view>
-			<coordinates>50.844961, 12.926227</coordinates>
-			<POIs>
-				<POI id="">
-					<name/>
-					<description/>
-					<URL/>
-				</POI>
-			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>19</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>21</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>20</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>18</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="24">
 			<filename>SCF_0024.MP4</filename>
@@ -361,6 +876,40 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>25</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>27</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>26</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>22</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="25">
 			<filename>SCF_0025.MP4</filename>
@@ -376,6 +925,32 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>27</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>26</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>24</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="26">
 			<filename>SCF_0026.MP4</filename>
@@ -391,6 +966,32 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>24</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>25</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>27</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="27">
 			<filename>SCF_0027.MP4</filename>
@@ -406,6 +1007,32 @@
 					<URL/>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>26</n_id>
+					<n_type>turnleft</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>24</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>25</n_id>
+					<n_type>turnright</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="28">
 			<filename>SCF_0028.MP4</filename>
@@ -414,21 +1041,6 @@
 			<street>Zöllnerplatz</street>
 			<direction_of_view>S</direction_of_view>
 			<coordinates>50.845396, 12.926109</coordinates>
-			<POIs>
-				<POI id="">
-					<name/>
-					<description/>
-					<URL/>
-				</POI>
-			</POIs>
-		</video>
-		<video id="29">
-			<filename>SCF_0029.MP4</filename>
-			<filesize/>
-			<length/>
-			<street>Brühl/Zöllnerstraße/Zöllnerplatz</street>
-			<direction_of_view>SSW</direction_of_view>
-			<coordinates>50.845003, 12.926310</coordinates>
 			<POIs>
 				<POI id="">
 					<name/>
