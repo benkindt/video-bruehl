@@ -1,0 +1,576 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Article{Andre2012,
+  Title                    = {Learning Semantic and Visual Similarity for Endomicroscopy Video Retrieval},
+  Author                   = {Andre, B. and Vercauteren, T. and Buchner, A.M. and Wallace, M.B. and Ayache, N.},
+  Journal                  = IEEE_J_MI,
+  Year                     = {2012},
+  Number                   = {6},
+  Pages                    = {1276--1288},
+  Volume                   = {31},
+
+  __markedentry            = {[Steve:4]},
+  Abstract                 = {Content-based image retrieval (CBIR) is a valuable computer vision technique which is increasingly being applied in the medical community for diagnosis support. However, traditional CBIR systems only deliver visual outputs, i.e., images having a similar appearance to the query, which is not directly interpretable by the physicians. Our objective is to provide a system for endomicroscopy video retrieval which delivers both visual and semantic outputs that are consistent with each other. In a previous study, we developed an adapted bag-of-visual-words method for endomicroscopy retrieval, called {\textquotedblleft}Dense-Sift,{\textquotedblright} that computes a visual signature for each video. In this paper, we present a novel approach to complement visual similarity learning with semantic knowledge extraction, in the field of in vivo endomicroscopy. We first leverage a semantic ground truth based on eight binary concepts, in order to transform these visual signatures into semantic signatures that reflect how much the presence of each semantic concept is expressed by the visual words describing the videos. Using cross-validation, we demonstrate that, in terms of semantic detection, our intuitive Fisher-based method transforming visual-word histograms into semantic estimations outperforms support vector machine (SVM) methods with statistical significance. In a second step, we propose to improve retrieval relevance by learning an adjusted similarity distance from a perceived similarity ground truth. As a result, our distance learning method allows to statistically improve the correlation with the perceived similarity. We also demonstrate that, in terms of perceived similarity, the recall performance of the semantic signatures is close to that of visual signatures and significantly better than those of several state-of-the-art CBIR methods. The semantic signatures are thus able to communicate high-level medical knowledge while being consistent with the low-level visual signatures and much sh- rter than them. In our resulting retrieval system, we decide to use visual signatures for perceived similarity learning and retrieval, and semantic signatures for the output of an additional information, expressed in the endoscopist own language, which provides a relevant semantic translation of the visual retrieval outputs.},
+  Doi                      = {10.1109/TMI.2012.2188301},
+  Owner                    = {Steve},
+  Timestamp                = {2013.10.02},
+  Url                      = {http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6153380}
+}
+
+@Electronic{commons2,
+  Title                    = {Philips Pattern PM5544 description},
+  Author                   = {John Arnstrom},
+  Month                    = {05},
+  Url                      = {http://upload.wikimedia.org/wikipedia/commons/a/a9/Philips_Pattern_PM5544_description.png},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Electronic{farbraumdef,
+  Title                    = {Farbmanagement-Grundlagen - Farbr{\"a}ume und Farbsysteme},
+  Author                   = {Andreas Beitinger},
+  Month                    = {06},
+  Url                      = {http://fotovideotec.de/farbmanagement/04_farbraeume_farbsysteme.html},
+  Year                     = {2011},
+
+  Owner                    = {steve_000},
+  Timestamp                = {2015.02.01}
+}
+
+@Electronic{artefakte22015,
+  Title                    = {{DXVA} {H}.264 {V}ideo artifact while playing},
+  Author                   = {Brunorex},
+  Month                    = {01},
+  Url                      = {https://trac.mpc-hc.org/ticket/360},
+  Year                     = {2015},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Electronic{buroschsite,
+  Title                    = {{T}estbilder f{\"u}r {TV} {D}isplays: {B}urosch - {T}he {TV} {I}mage {E}xperts},
+  Author                   = {BUROSCH},
+  Month                    = {01},
+  Url                      = {http://www.burosch.de/testbilder.html},
+  Year                     = {2015},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Electronic{BusDicVid,
+  Title                    = {Business {D}ictionary - {D}efintion {V}ideo},
+  Author                   = {Businessdictionary},
+  Month                    = {04},
+  Url                      = {http://www.businessdictionary.com/definition/video.html},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.09}
+}
+
+@Electronic{Computerwoche1992,
+  Title                    = {Mit neuer DIN-Norm l\"asst sich die DV-Leistung messen},
+  Author                   = {Computerwoche},
+  Month                    = {04},
+  Url                      = {http://www.computerwoche.de/a/mit-neuer-din-norm-lasst-sich-die-dv-leistung-messen,1133686},
+  Year                     = {1992},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.09}
+}
+
+@Electronic{tum-24,
+  Title                    = {Digitales Video},
+  Author                   = {Prof. Dr.-Ing. Klaus Diepold and Martin Rothbucher and Christian Keimel},
+  Month                    = {01},
+  Url                      = {www.ldv.ei.tum.de/uploads/media/Vorlesung_6.pdf},
+  Year                     = {2015},
+
+  Owner                    = {steve_000},
+  Timestamp                = {2015.01.31}
+}
+
+@Electronic{Dijkstra,
+  Title                    = {Program correctness},
+  Author                   = {Edsger W. Dijkstra},
+  Month                    = {08},
+  Url                      = {https://www.cs.utexas.edu/users/EWD/transcriptions/EWD02xx/EWD268.html},
+  Year                     = {1969},
+
+  Owner                    = {steve_000},
+  Timestamp                = {2015.01.29}
+}
+
+@Electronic{DudenTest,
+  Title                    = {Duden - Test},
+  Author                   = {Duden},
+  Month                    = {04},
+  Url                      = {http://www.duden.de/rechtschreibung/Test},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Book{Endo:Press2009,
+  Title                    = {F.E.S.S. "Uncapping the egg". Der endoskopische Weg zur Stirnh\"ohle},
+  Author                   = {Endo:Press},
+  Publisher                = {Endo:Press},
+  Year                     = {2009},
+
+  __markedentry            = {[Steve:4]},
+  Owner                    = {Steve},
+  Timestamp                = {2013.10.01}
+}
+
+@Electronic{AboutFFmpeg2015,
+  Title                    = {About {FF}mpeg},
+  Author                   = {FFmpeg},
+  Month                    = {01},
+  Url                      = {http://www.ffmpeg.org/about.html},
+  Year                     = {2015},
+
+  Owner                    = {Steve},
+  Timestamp                = {2015.01.25}
+}
+
+@Electronic{artefakte2015,
+  Title                    = {Kompressions-{A}rtefakte},
+  Author                   = {J{\"u}rgen Hartl},
+  Month                    = {01},
+  Url                      = {http://jmh.heimat.eu/pages/glossar/z_artefakte.htm},
+  Year                     = {2015},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Electronic{moirehemd,
+  Title                    = {joop-hemd-pitt-170155717004499324-7774-212x300},
+  Author                   = {http://www.designeranzug.net},
+  Month                    = {05},
+  Url                      = {http://www.designeranzug.net/bilder/joop-hemd-pitt-170155717004499324-7774-212x300.jpg},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.05.15}
+}
+
+@Article{NewportGroup2002,
+  Title                    = {Enterprise Load Testing for Web Applications},
+  Author                   = {Newport Group Inc.},
+  Year                     = {2002},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.09}
+}
+
+@Electronic{aliasbild2015,
+  Title                    = {Grundbegriffe der {F}otografie},
+  Author                   = {Dennis Kleine},
+  Month                    = {01},
+  Url                      = {http://www.dennis-kleine.com/grundbegriffe.html},
+  Year                     = {2015},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Electronic{TU_Presse1,
+  Title                    = {Automatische Archivierung von Videos},
+  Author                   = {Robert Knauf},
+  Month                    = {05},
+  Url                      = {http://www.tu-chemnitz.de/tu/presse/bilder/bildanzeige.php?bild_id=692},
+  Year                     = {2014},
+
+  Abstract                 = {Archivierung und Suche leicht gemacht: Medieninformatiker der Technischen Universität Chemnitz testen die automatische Identifizierung von Objekten und Personen in Videofilmen.},
+  Owner                    = {Steve},
+  Timestamp                = {2014.05.08}
+}
+
+@Electronic{KrohaST,
+  Title                    = {Softwaretechnologie I.},
+  Author                   = {Prof. Dr. Petr Kroha},
+  Month                    = {April},
+  Year                     = {2010},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.30}
+}
+
+@Electronic{alias2008,
+  Title                    = {Anti-{A}liasing},
+  Author                   = {Samia Mansouri and Timo Bryant},
+  Month                    = {12},
+  Url                      = {http://www.informatik.uni-mainz.de/lehre/cg/WS0809_SCG/Thema1/vortrag.pdf},
+  Year                     = {2008},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Article{Merritt2013,
+  Title                    = {Interactive {CT}-Video Registration for the Continuous Guidance of Bronchoscopy},
+  Author                   = {Merritt, S.A. and Khare, R. and Bascom, R. and Higgins, W.E.},
+  Journal                  = IEEE_J_MI,
+  Year                     = {2013},
+  Number                   = {8},
+  Pages                    = {1376--1396},
+  Volume                   = {32},
+
+  __markedentry            = {[Steve:4]},
+  Abstract                 = {Bronchoscopy is a major step in lung cancer staging. To perform bronchoscopy, the physician uses a procedure plan, derived from a patient's 3D computed-tomography (CT) chest scan, to navigate the bronchoscope through the lung airways. Unfortunately, physicians vary greatly in their ability to perform bronchoscopy. As a result, image-guided bronchoscopy systems, drawing upon the concept of CT-based virtual bronchoscopy (VB), have been proposed. These systems attempt to register the bronchoscope's live position within the chest to a CT-based virtual chest space. Recent methods, which register the bronchoscopic video to CT-based endoluminal airway renderings, show promise but do not enable continuous real-time guidance. We present a CT-video registration method inspired by computer-vision innovations in the fields of image alignment and image-based rendering. In particular, motivated by the Lucas–Kanade algorithm, we propose an inverse-compositional framework built around a gradient-based optimization procedure. We next propose an implementation of the framework suitable for image-guided bronchoscopy. Laboratory tests, involving both single frames and continuous video sequences, demonstrate the robustness and accuracy of the method. Benchmark timing tests indicate that the method can run continuously at 300 frames/s, well beyond the real-time bronchoscopic video rate of 30 frames/s. This compares extremely favorably to the ${geq}{1}~{hbox {s}}/{hbox {frame}}$ speeds of other methods and indicates the method's potential for real-time continuous registration. A human phantom study confirms the method's efficacy for real-time guidance in a controlled setting, and, hence, points the way toward the first interactive CT-video registration approach for image-guided bronchoscopy. Along this line, we demonstrate the method's efficacy in a complete guidance system by presenting a clinical study in- olving lung cancer patients.},
+  Doi                      = {10.1109/TMI.2013.2252361},
+  Owner                    = {Steve},
+  Timestamp                = {2013.10.02},
+  Url                      = {http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6478829}
+}
+
+@Electronic{Microtronix2005,
+  Title                    = {DIN 66273 / ISO 14756: Messung und Vergleich von DV Systemen und normierte Lastspezifikation},
+  Author                   = {Microtronix},
+  Url                      = {http:\\www.microtronix.de/DIN_Fuer_Lasttests.pdf},
+  Year                     = {2005},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.09}
+}
+
+@Article{Mirota2012,
+  Title                    = {A System for Video-Based Navigation for Endoscopic Endonasal Skull Base Surgery},
+  Author                   = {Mirota, D.J. and Hanzi Wang and Taylor, R.H. and Ishii, M. and Gallia, G.L. and Hager, G.D.},
+  Journal                  = IEEE_J_MI,
+  Year                     = {2012},
+  Number                   = {4},
+  Pages                    = {963--976},
+  Volume                   = {31},
+
+  __markedentry            = {[Steve:4]},
+  Abstract                 = {Surgeries of the skull base require accuracy to safely navigate the critical anatomy. This is particularly the case for endoscopic endonasal skull base surgery (ESBS) where the surgeons work within millimeters of neurovascular structures at the skull base. Today's navigation systems provide approximately 2 mm accuracy. Accuracy is limited by the indirect relationship of the navigation system, the image and the patient. We propose a method to directly track the position of the endoscope using video data acquired from the endoscope camera. Our method first tracks image feature points in the video and reconstructs the image feature points to produce 3D points, and then registers the reconstructed point cloud to a surface segmented from preoperative computed tomography (CT) data. After the initial registration, the system tracks image features and maintains the 2D-3D correspondence of image features and 3D locations. These data are then used to update the current camera pose. We present a method for validation of our system, which achieves submillimeter (0.70 mm mean) target registration error (TRE) results.},
+  Doi                      = {10.1109/TMI.2011.2176500},
+  Owner                    = {Steve},
+  Timestamp                = {2013.10.02},
+  Url                      = {http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6084839}
+}
+
+@Book{Moradi2015,
+  Title                    = {Glitch: Designing Imperfection},
+  Author                   = {Iman Moradi and Ant Scott and Joe Gilmore and Christopher Murphy},
+  Editor                   = {Cool Hunting},
+  Publisher                = {Mark Batty Publishers},
+  Year                     = {2009},
+  Month                    = {09},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29},
+  Url                      = {http://www.wallpaper.com/art/book-glitch-designing-imperfection/3738}
+}
+
+@Book{Prof.AndreasLeunig2012,
+  Title                    = {Endoscopic Surgery of the Lateral Nasal Wall, Paranasal Sinuses and Anterior Skull Base - Principles and Clinical Examples},
+  Author                   = {Prof. Andreas Leunig, M.D.},
+  Publisher                = {Endo:Press},
+  Year                     = {2012},
+
+  __markedentry            = {[Steve:4]},
+  Owner                    = {Steve},
+  Timestamp                = {2013.10.01}
+}
+
+@Book{Putz2007,
+  Title                    = {Sobotta - Anatomie des Menschen},
+  Author                   = {Putz, R. and Pabst, R.},
+  Publisher                = {Urban \& Fischer bei Elsev},
+  Year                     = {2007},
+
+  __markedentry            = {[Steve:4]},
+  ISBN                     = {3437435914},
+  Owner                    = {Steve},
+  Timestamp                = {2013.09.24}
+}
+
+@Book{medieninfo,
+  Title                    = {Medieninformatik: Eine Einf\"uhrung},
+  Author                   = {Rainer Malaka, Andreas Butz, Heinrich Hussmann},
+  Publisher                = {Addison-Wesley},
+  Year                     = {2009},
+  Month                    = {09},
+
+  __markedentry            = {[Steve:6]},
+  ISBN                     = {3827373530},
+  Owner                    = {Steve},
+  Timestamp                = {2014.05.15}
+}
+
+@Book{Rohen,
+  Title                    = {Anatomie Des Menschen: Photographischer Atlas Der Systematischen Und Topographischen Anatomie ; [Koeditionen In 11 Sprachen]},
+  Author                   = {Rohen, Johannes W. and Yokochi, Chihiro and L\"utjen-Drecoll, Elke},
+
+  __markedentry            = {[Steve:4]},
+  ISBN                     = {3794517903},
+  Owner                    = {Steve},
+  Timestamp                = {2013.09.24}
+}
+
+@Electronic{GeoinfoLex,
+  Title                    = {Geoinformatik-{L}exikon der {U}ni {R}ostock},
+  Author                   = {Universit{\"a}t Rostock},
+  Month                    = {04},
+  Url                      = {http://www.geoinformatik.uni-rostock.de/},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.09}
+}
+
+@Book{HeinzStammberger2009,
+  Title                    = {F.E.S.S. "Uncapping the egg". Der endoskopische Weg zur Stirnh\"ohle},
+  Author                   = {Prof. Dr. Heinz Stammberger},
+  Publisher                = {Endo:Press},
+  Year                     = {2009},
+
+  __markedentry            = {[Steve:4]},
+  Owner                    = {Steve},
+  Timestamp                = {2013.10.01}
+}
+
+@PhdThesis{Stolze2008,
+  Title                    = {Performancetests und Bottleneck-Analyse in Multischichtarchitekturen},
+  Author                   = {Jirk Stolze},
+  School                   = {Freie Universit\"at Berlin},
+  Year                     = {2008},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.03.17},
+  Url                      = {http://www.performance-test.de/}
+}
+
+@PhdThesis{StolzeBegDef,
+  Title                    = {Performancetests und Bottleneck-Analyse in Multischichtarchitekturen: Begriffsdefintionen},
+  Author                   = {Jirk Stolze},
+  School                   = {Freie Universit\"at Berlin},
+  Year                     = {2008},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.03.17},
+  Url                      = {http://www.performance-test.de/performancetests-begriffsdefinitionen.htm}
+}
+
+@PhdThesis{StolzePerf,
+  Title                    = {Performancetests und Bottleneck-Analyse in Multischichtarchitekturen: Performance},
+  Author                   = {Jirk Stolze},
+  School                   = {Freie Universit\"at Berlin},
+  Year                     = {2008},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.03.17},
+  Url                      = {http://www.performance-test.de/performancetests-begriffsdefinitionen.htm}
+}
+
+@Electronic{ProzMod,
+  Title                    = {Prozess-Modelle},
+  Author                   = {Prof. Dr. Herbert Stoyan},
+  Month                    = {05},
+  Url                      = {https://www8.cs.fau.de/IMMD8/Lectures/SS03/algo2/AlgII.FAU.SS03.Kap21_1.pdf},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.05.14}
+}
+
+@Electronic{TUM2011,
+  Title                    = {{TUM} {M}ulti {F}ormat {T}est {S}et},
+  Author                   = {TUM, Technische Universit{\"a}t M{\"u}nchen, Institute for Data Processing},
+  Note                     = {Available: http://www.ldv.ei.tum.de/videolab},
+  Url                      = {http://www.ldv.ei.tum.de/uploads/media/TUM_Multi_Format_Test_Set_01.pdf},
+  Year                     = {2011},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Electronic{MSU2012,
+  Title                    = {{MPEG}-4 {AVC}/{H}.264 {V}ideo {C}odecs {C}omparison},
+  Author                   = {Dr. Dmitriy Vatolin and Dr. Dmitriy Kulikov},
+  Month                    = {05},
+  Url                      = {http://compression.ru/video/codec_comparison/h264_2012/mpeg4_avc_h264_video_codecs_comparison.pdf},
+  Year                     = {2012},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.05.07}
+}
+
+@Electronic{digitalvd_fubk,
+  Author                   = {BUROSCH Audio-Video-Technik},
+  Month                    = {05},
+  Url                      = {http://www.digitalvd.de/hardware.php4?ID=13#teil9},
+  Year                     = {2014},
+
+  Day                      = {07},
+  Owner                    = {Steve},
+  Timestamp                = {2014.05.07}
+}
+
+@Article{Vilarino2010,
+  Title                    = {Intestinal Motility Assessment With Video Capsule Endoscopy: Automatic Annotation of Phasic Intestinal Contractions},
+  Author                   = {Vilarino, F. and Spyridonos, P. and DeIorio, F. and Vitria, J. and Azpiroz, F. and Radeva, P.},
+  Journal                  = IEEE_J_MI,
+  Year                     = {2010},
+  Number                   = {2},
+  Pages                    = {246--259},
+  Volume                   = {29},
+
+  __markedentry            = {[Steve:4]},
+  Abstract                 = {Intestinal motility assessment with video capsule endoscopy arises as a novel and challenging clinical fieldwork. This technique is based on the analysis of the patterns of intestinal contractions shown in a video provided by an ingestible capsule with a wireless micro-camera. The manual labeling of all the motility events requires large amount of time for offline screening in search of findings with low prevalence, which turns this procedure currently unpractical. In this paper, we propose a machine learning system to automatically detect the phasic intestinal contractions in video capsule endoscopy, driving a useful but not feasible clinical routine into a feasible clinical procedure. Our proposal is based on a sequential design which involves the analysis of textural, color, and blob features together with SVM classifiers. Our approach tackles the reduction of the imbalance rate of data and allows the inclusion of domain knowledge as new stages in the cascade. We present a detailed analysis, both in a quantitative and a qualitative way, by providing several measures of performance and the assessment study of interobserver variability. Our system performs at 70% of sensitivity for individual detection, whilst obtaining equivalent patterns to those of the experts for density of contractions.},
+  Doi                      = {10.1109/TMI.2009.2020753},
+  Owner                    = {Steve},
+  Timestamp                = {2013.10.02},
+  Url                      = {http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4909037}
+}
+
+@Electronic{itwissen_videocodec,
+  Title                    = {Videocodec},
+  Month                    = {01},
+  Url                      = {http://www.itwissen.info/definition/lexikon/Video-Codec-video-codec.html},
+  Year                     = {2015},
+
+  Owner                    = {steve_000},
+  Timestamp                = {2015.01.29}
+}
+
+@Electronic{wnbt,
+  Title                    = {Test Pattern Classics - New York Television Stations (1)},
+  Month                    = {01},
+  Url                      = {http://ggninfo.com/TP3.htm},
+  Year                     = {2015},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.05.07}
+}
+
+@Electronic{commons1,
+  Title                    = {Phillips PM5538},
+  Month                    = {05},
+  Url                      = {http://upload.wikimedia.org/wikipedia/commons/7/79/Phillips_PM5538.jpg},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Electronic{commons3,
+  Title                    = {FuBK-Testbild},
+  Month                    = {05},
+  Url                      = {http://upload.wikimedia.org/wikipedia/commons/3/3d/FuBK-Testbild.png},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Electronic{commons4,
+  Title                    = {SMPTE Color Bars},
+  Month                    = {05},
+  Url                      = {http://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Electronic{commons5,
+  Title                    = {EBU Colorbars},
+  Month                    = {05},
+  Url                      = {http://upload.wikimedia.org/wikipedia/commons/8/85/EBU_Colorbars.svg},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.29}
+}
+
+@Electronic{commons6,
+  Title                    = {Philips PM5544 (SECAM variation)},
+  Month                    = {05},
+  Url                      = {http://upload.wikimedia.org/wikipedia/commons/f/fe/Philips_PM5544_%28SECAM_variation%29.jpg},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.05.07}
+}
+
+@Electronic{commons7,
+  Title                    = {Phillips PM5538},
+  Month                    = {05},
+  Url                      = {http://upload.wikimedia.org/wikipedia/commons/7/79/Phillips_PM5538.jpg},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.05.07}
+}
+
+@Electronic{commons8,
+  Title                    = {Phillips PM5540},
+  Month                    = {05},
+  Url                      = {http://upload.wikimedia.org/wikipedia/commons/e/ec/Phillips_PM5540.jpg},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.05.07}
+}
+
+@Electronic{ImbStr,
+  Title                    = {Imbus Gloassar - Stresstest},
+  Month                    = {04},
+  Url                      = {http://glossar.imbus.de/frontend/term/stress-testing},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.10}
+}
+
+@Electronic{Inventage,
+  Title                    = {Performance- und Lasttests},
+  Month                    = {04},
+  Url                      = {http://www.inventage.com/performance--und-lasttests.html},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.10}
+}
+
+@Electronic{moirescreen,
+  Title                    = {ELI5:Why do pictures of screens have that striated star-like pattern?},
+  Month                    = {05},
+  Url                      = {http://www.reddit.com/r/explainlikeimfive/comments/1qhxhz/eli5why_do_pictures_of_screens_have_that_striated/},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.05.15}
+}
+
+@Electronic{vmodel,
+  Title                    = {V Model},
+  Month                    = {04},
+  Url                      = {http://www.softwaretestingclass.com/v-model/},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.30}
+}
+
+@Electronic{WeboTransc,
+  Title                    = {Webopedia - {D}efintion {T}ranscoding},
+  Month                    = {04},
+  Url                      = {http://www.webopedia.com/TERM/T/transcoding.html},
+  Year                     = {2014},
+
+  Owner                    = {Steve},
+  Timestamp                = {2014.04.09}
+}
+

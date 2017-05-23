@@ -1,0 +1,95 @@
+\begin{thebibliography}{MSGM09}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[Arn14]{commons2}
+John Arnstrom: {\em Philips Pattern PM5544 description\/}, 05 2014.
+\newline\urlprefix\url{http://upload.wikimedia.org/wikipedia/commons/a/a9/Philips_Pattern_PM5544_description.png}
+
+\bibitem[Bei11]{farbraumdef}
+Andreas Beitinger: {\em Farbmanagement-Grundlagen - Farbr{\"a}ume und
+  Farbsysteme\/}, 06 2011.
+\newline\urlprefix\url{http://fotovideotec.de/farbmanagement/04_farbraeume_farbsysteme.html}
+
+\bibitem[BUR15]{buroschsite}
+BUROSCH: {\em {T}estbilder f{\"u}r {TV} {D}isplays: {B}urosch - {T}he {TV}
+  {I}mage {E}xperts\/}, 01 2015.
+\newline\urlprefix\url{http://www.burosch.de/testbilder.html}
+
+\bibitem[Bus14]{BusDicVid}
+Businessdictionary: {\em Business {D}ictionary - {D}efintion {V}ideo\/}, 04
+  2014.
+\newline\urlprefix\url{http://www.businessdictionary.com/definition/video.html}
+
+\bibitem[Com92]{computerwoche1992}
+Computerwoche: {\em Mit neuer DIN-Norm l\"asst sich die DV-Leistung messen\/},
+  04 1992.
+\newline\urlprefix\url{http://www.computerwoche.de/a/mit-neuer-din-norm-lasst-sich-die-dv-leistung-messen,1133686}
+
+\bibitem[Dij69]{Dijkstra}
+Edsger~W. Dijkstra: {\em Program correctness\/}, 08 1969.
+\newline\urlprefix\url{https://www.cs.utexas.edu/users/EWD/transcriptions/EWD02xx/EWD268.html}
+
+\bibitem[DRK15]{tum-24}
+Prof. Dr.-Ing.~Klaus Diepold, Martin Rothbucher und Christian Keimel: {\em
+  Digitales {V}ideo\/}, 01 2015.
+\newline\urlprefix\url{www.ldv.ei.tum.de/uploads/media/Vorlesung_6.pdf}
+
+\bibitem[FFm15]{AboutFFmpeg2015}
+FFmpeg: {\em About {FF}mpeg\/}, 01 2015.
+\newline\urlprefix\url{http://www.ffmpeg.org/about.html}
+
+\bibitem[Har15]{artefakte2015}
+J{\"u}rgen Hartl: {\em Kompressions-{A}rtefakte\/}, 01 2015.
+\newline\urlprefix\url{http://jmh.heimat.eu/pages/glossar/z_artefakte.htm}
+
+\bibitem[Imb14]{ImbStr}
+{\em Imbus Gloassar - Stresstest\/}, 04 2014.
+\newline\urlprefix\url{http://glossar.imbus.de/frontend/term/stress-testing}
+
+\bibitem[Kle15]{aliasbild2015}
+Dennis Kleine: {\em Grundbegriffe der {F}otografie\/}, 01 2015.
+\newline\urlprefix\url{http://www.dennis-kleine.com/grundbegriffe.html}
+
+\bibitem[Lip15]{itwissen_videocodec}
+Dipl.-Ing.~Klaus Lipinski: {\em Videocodec\/}, 01 2015.
+\newline\urlprefix\url{http://www.itwissen.info/definition/lexikon/Video-Codec-video-codec.html}
+
+\bibitem[MB08]{alias2008}
+Samia Mansouri und Timo Bryant: {\em Anti-{A}liasing\/}, 12 2008.
+\newline\urlprefix\url{http://www.informatik.uni-mainz.de/lehre/cg/WS0809_SCG/Thema1/vortrag.pdf}
+
+\bibitem[Mic05]{Microtronix2005}
+Microtronix: {\em DIN 66273 / ISO 14756: Messung und Vergleich von DV Systemen
+  und normierte Lastspezifikation\/}, 2005.
+\newline\urlprefix\url{http:\\www.microtronix.de/DIN_Fuer_Lasttests.pdf}
+
+\bibitem[MSGM09]{Moradi2015}
+Iman Moradi, Ant Scott, Joe Gilmore und Christopher Murphy: {\em Glitch:
+  Designing Imperfection\/}, Mark Batty Publishers, 09 2009.
+\newline\urlprefix\url{http://www.wallpaper.com/art/book-glitch-designing-imperfection/3738}
+
+\bibitem[Ros14]{GeoinfoLex}
+Universit{\"a}t Rostock: {\em Geoinformatik-{L}exikon der {U}ni {R}ostock\/},
+  04 2014.
+\newline\urlprefix\url{http://www.geoinformatik.uni-rostock.de/}
+
+\bibitem[Sto08]{StolzePerf}
+Jirk Stolze: {\em Performancetests und Bottleneck-Analyse in
+  Multischichtarchitekturen: Performance\/}, Dissertation, Freie Universit\"at
+  Berlin, 2008.
+\newline\urlprefix\url{http://www.performance-test.de/performancetests-begriffsdefinitionen.htm}
+
+\bibitem[TUM11]{TUM2011}
+Institute for Data~Processing TUM, Technische Universit{\"a}t~M{\"u}nchen: {\em
+  {TUM} {M}ulti {F}ormat {T}est {S}et\/}, 2011, available:
+  http://www.ldv.ei.tum.de/videolab.
+\newline\urlprefix\url{http://www.ldv.ei.tum.de/uploads/media/TUM_Multi_Format_Test_Set_01.pdf}
+
+\bibitem[VK12]{MSU2012}
+Dr.~Dmitriy Vatolin und Dr.~Dmitriy Kulikov: {\em {MPEG}-4 {AVC}/{H}.264
+  {V}ideo {C}odecs {C}omparison\/}, 05 2012.
+\newline\urlprefix\url{http://compression.ru/video/codec_comparison/h264_2012/mpeg4_avc_h264_video_codecs_comparison.pdf}
+
+\end{thebibliography}
