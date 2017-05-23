@@ -10,10 +10,14 @@
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates>50.841061, 12.923712</coordinates>
 			<POIs>
-				<POI id="">
-					<name/>
-					<description/>
+				<POI poi_id="1">
+					<name>Brühltor</name>
+					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
 					<URL/>
+					<poi_cords>
+						<x>65</x>
+						<y>65</y>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -43,10 +47,14 @@
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.841061, 12.923712</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -76,10 +84,14 @@
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.841061, 12.923712</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -117,10 +129,14 @@
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -158,10 +174,14 @@
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -207,10 +227,14 @@
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -248,10 +272,14 @@
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -297,10 +325,14 @@
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -336,6 +368,14 @@
 					<n_id>14</n_id>
 					<n_type>forward</n_type>
 				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>50</y>
+					</n_cords>
+					<n_id>30</n_id>
+					<n_type>frontleft</n_type>
+				</neighbour>
 			</neighbours>
 		</video>
 		<video id="10">
@@ -346,10 +386,14 @@
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -387,10 +431,14 @@
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -428,10 +476,14 @@
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -477,10 +529,14 @@
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates> 50.843325, 12.925230</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -518,10 +574,14 @@
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates> 50.843325, 12.925230</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -559,10 +619,14 @@
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates> 50.843325, 12.925230</coordinates>
 			<POIs>
-				<POI id="">
-					<name/>
-					<description/>
-					<URL/>
+				<POI poi_id="1">
+					<name>Rosa-Luxemburg-Grundschule am Brühl</name>
+					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
+					<URL></URL>
+					<poi_cords>
+						<x>50</x>
+						<y>30</y>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -592,10 +656,14 @@
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.844019, 12.925630</coordinates>
 			<POIs>
-				<POI id="">
-					<name/>
-					<description/>
+				<POI poi_id="1">
+					<name>Schriftzug "Zuhause"</name>
+					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
 					<URL/>
+					<poi_cords>
+						<x>35</x>
+						<y>40</y>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -641,10 +709,14 @@
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -690,10 +762,14 @@
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -731,10 +807,14 @@
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -772,10 +852,14 @@
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -821,10 +905,14 @@
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.844226, 12.925768</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -870,10 +958,14 @@
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.845014, 12.926262</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -919,10 +1011,14 @@
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates>50.845003, 12.926310</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -960,10 +1056,14 @@
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates>50.845003, 12.926310</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -991,6 +1091,14 @@
 					<n_id>27</n_id>
 					<n_type>turnright</n_type>
 				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>80</x>
+						<y>50</y>
+					</n_cords>
+					<n_id>28</n_id>
+					<n_type>frontright</n_type>
+				</neighbour>
 			</neighbours>
 		</video>
 		<video id="27">
@@ -1001,10 +1109,14 @@
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.845003, 12.926310</coordinates>
 			<POIs>
-				<POI id="">
+				<POI poi_id="">
 					<name/>
 					<description/>
 					<URL/>
+					<poi_cords>
+						<x/>
+						<y/>
+					</poi_cords>
 				</POI>
 			</POIs>
 			<neighbours>
@@ -1032,6 +1144,14 @@
 					<n_id>25</n_id>
 					<n_type>turnright</n_type>
 				</neighbour>
+				<neighbour>
+					<n_cords>
+						<x>20</x>
+						<y>50</y>
+					</n_cords>
+					<n_id>28</n_id>
+					<n_type>frontleft</n_type>
+				</neighbour>
 			</neighbours>
 		</video>
 		<video id="28">
@@ -1042,12 +1162,26 @@
 			<direction_of_view>S</direction_of_view>
 			<coordinates>50.845396, 12.926109</coordinates>
 			<POIs>
-				<POI id="">
-					<name/>
-					<description/>
-					<URL/>
+				<POI poi_id="1">
+					<name>Der verrückte Stuhl</name>
+					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
+					<URL>http://www.stadtbibliothek-chemnitz.de/skulpturen/pmwiki.php?n=Main.DerVerr%FCckteStuhl</URL>
+					<poi_cords>
+						<x>60</x>
+						<y>45</y>
+					</poi_cords>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>35</y>
+					</n_cords>
+					<n_id>24</n_id>
+					<n_type>forward</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 		<video id="30">
 			<filename>SCF_0030.MP4</filename>
@@ -1057,12 +1191,26 @@
 			<direction_of_view>NW</direction_of_view>
 			<coordinates>50.842637, 12.924710</coordinates>
 			<POIs>
-				<POI id="">
-					<name/>
-					<description/>
-					<URL/>
+				<POI poi_id="1">
+					<name>Urteil des Paris</name>
+					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
+					<URL>http://www.stadtbibliothek-chemnitz.de/skulpturen/pmwiki.php?n=Main.UrteilDesParis</URL>
+					<poi_cords>
+						<x>50</x>
+						<y>30</y>
+					</poi_cords>
 				</POI>
 			</POIs>
+			<neighbours>
+				<neighbour>
+					<n_cords>
+						<x>50</x>
+						<y>10</y>
+					</n_cords>
+					<n_id>9</n_id>
+					<n_type>turnaround</n_type>
+				</neighbour>
+			</neighbours>
 		</video>
 	</videos>
 </interactive_media>
