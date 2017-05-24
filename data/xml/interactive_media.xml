@@ -9,8 +9,8 @@
 			<street>Brühl/Georgstraße</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates>50.841061, 12.923712</coordinates>
-			<POIs>
-				<POI poi_id="1">
+			<pois>
+				<poi poi_id="1">
 					<name>Brühltor</name>
 					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
 					<URL/>
@@ -18,8 +18,8 @@
 						<x>65</x>
 						<y>65</y>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -46,8 +46,8 @@
 			<street>Brühl/Georgstraße</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.841061, 12.923712</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -55,8 +55,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -83,8 +83,8 @@
 			<street>Brühl/Georgstraße</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.841061, 12.923712</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -92,8 +92,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -128,8 +128,8 @@
 			<street>Brühl/Untere Aktienstraße</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -137,8 +137,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -173,8 +173,8 @@
 			<street>Brühl/Untere Aktienstraße</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -182,8 +182,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -226,8 +226,8 @@
 			<street>Brühl/Untere Aktienstraße</street>
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -235,8 +235,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -271,8 +271,8 @@
 			<street>Brühl/Untere Aktienstraße</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -280,8 +280,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -324,8 +324,8 @@
 			<street>Brühl/Hermannstraße</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -333,8 +333,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -385,8 +385,8 @@
 			<street>Brühl/Hermannstraße</street>
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -394,8 +394,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -430,8 +430,8 @@
 			<street>Brühl/Hermannstraße</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -439,8 +439,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -475,8 +475,8 @@
 			<street>Brühl/Hermannstraße</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -484,8 +484,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -528,8 +528,8 @@
 			<street>Brühl</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates> 50.843325, 12.925230</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -537,8 +537,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -573,8 +573,8 @@
 			<street>Brühl</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates> 50.843325, 12.925230</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -582,8 +582,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -618,8 +618,8 @@
 			<street>Brühl</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates> 50.843325, 12.925230</coordinates>
-			<POIs>
-				<POI poi_id="1">
+			<pois>
+				<poi poi_id="1">
 					<name>Rosa-Luxemburg-Grundschule am Brühl</name>
 					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
 					<URL></URL>
@@ -627,8 +627,8 @@
 						<x>50</x>
 						<y>30</y>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -655,8 +655,8 @@
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.844019, 12.925630</coordinates>
-			<POIs>
-				<POI poi_id="1">
+			<pois>
+				<poi poi_id="1">
 					<name>Schriftzug "Zuhause"</name>
 					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
 					<URL/>
@@ -664,8 +664,8 @@
 						<x>35</x>
 						<y>40</y>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -708,8 +708,8 @@
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -717,8 +717,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -761,8 +761,8 @@
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -770,8 +770,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -806,8 +806,8 @@
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -815,8 +815,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -851,8 +851,8 @@
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -860,8 +860,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -904,8 +904,8 @@
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.844226, 12.925768</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -913,8 +913,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -957,8 +957,8 @@
 			<street>Brühl/Zöllnerstraße/Zöllnerplatz</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.845014, 12.926262</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -966,8 +966,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -1010,8 +1010,8 @@
 			<street>Brühl/Zöllnerstraße/Zöllnerplatz</street>
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates>50.845003, 12.926310</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -1019,8 +1019,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -1055,8 +1055,8 @@
 			<street>Brühl/Zöllnerstraße/Zöllnerplatz</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates>50.845003, 12.926310</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -1064,8 +1064,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -1108,8 +1108,8 @@
 			<street>Brühl/Zöllnerstraße/Zöllnerplatz</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.845003, 12.926310</coordinates>
-			<POIs>
-				<POI poi_id="">
+			<pois>
+				<poi poi_id="">
 					<name/>
 					<description/>
 					<URL/>
@@ -1117,8 +1117,8 @@
 						<x/>
 						<y/>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -1161,8 +1161,8 @@
 			<street>Zöllnerplatz</street>
 			<direction_of_view>S</direction_of_view>
 			<coordinates>50.845396, 12.926109</coordinates>
-			<POIs>
-				<POI poi_id="1">
+			<pois>
+				<poi poi_id="1">
 					<name>Der verrückte Stuhl</name>
 					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
 					<URL>http://www.stadtbibliothek-chemnitz.de/skulpturen/pmwiki.php?n=Main.DerVerr%FCckteStuhl</URL>
@@ -1170,8 +1170,8 @@
 						<x>60</x>
 						<y>45</y>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
@@ -1190,8 +1190,8 @@
 			<street>Brühl/Hermannstraße</street>
 			<direction_of_view>NW</direction_of_view>
 			<coordinates>50.842637, 12.924710</coordinates>
-			<POIs>
-				<POI poi_id="1">
+			<pois>
+				<poi poi_id="1">
 					<name>Urteil des Paris</name>
 					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
 					<URL>http://www.stadtbibliothek-chemnitz.de/skulpturen/pmwiki.php?n=Main.UrteilDesParis</URL>
@@ -1199,8 +1199,8 @@
 						<x>50</x>
 						<y>30</y>
 					</poi_cords>
-				</POI>
-			</POIs>
+				</poi>
+			</pois>
 			<neighbours>
 				<neighbour>
 					<n_cords>
