@@ -7,9 +7,44 @@ Warum bestimmte Features nicht umgesetzt / umgesetzt. Einfachheit
 Videodaten aufzählen mit Details
 POI: Brühltor, Schule, Paris, Stuhl, Zuhause, 
 \chapter{Implementierung}
-Anforderungen um Architektur umzusetzen, bzw. um den Player auszuführen
+
+Der Player ist in den grundlegenden Webtechniken umgesetzt und da keine serverseitige Technologie wie PHP o.ä. zum Einsatz kommt, ist kein Webserver notwendig.
+
+Anforderungen:
+- Internetverbindung
+- Kein Webserver notwendig, da komplett mit HTML, CSS und JS umgesetzt
+
+Verwendete Bibliotheken:
+
+- Video.js (Player)
+
+	Open-source HTML5 Video Player
+	
+- Video.js-Overlay-Plugin (Player Overlays)
+
+	POI-Overlay
+	
+- Bootstrap (UI Elements)
+
+	Grid-Layout (siehe Bootstrap-Dokumentation, z.B. col-md-4)
+
+- jQuery (common lib for JS)
+	
+	Easy access and traversing through DOM Tree
+	
+- XML2JSON
+
+	Convert XML to JSON-Format (https://github.com/sparkbuzz/jQuery-xml2json)
+	
+Installation:
+- Projekt von Github klonen
+- Internetverbindung prüfen
+- Öffnen des Players über video-bruehl/src/index.html
+
 Information zum XML
-Genaue Installationsanleitung
+
+---TODO--- steve
+
 \chapter{Zusammenfassung}
 
 
