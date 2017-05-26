@@ -954,7 +954,8 @@
 			<filename>SCF_0024.MP4</filename>
 			<filesize/>
 			<length/>
-			<street>Brühl/Zöllnerstraße/Zöllnerplatz</street>
+			<street>
+	Brühl/Zöllnerstraße/Zöllnerplatz</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.845014, 12.926262</coordinates>
 			<POIs>
