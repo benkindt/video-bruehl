@@ -1,13 +1,36 @@
-
+body {
+	background-color: #d3d3d3;
+}
+#my-player {
+	border-radius: 12px !important;
+	overflow: hidden;
+}
+#videoWrapper {
+	border-radius: 12px !important;
+	overflow: hidden;
+}
 #wrapper {
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 #topWrapper, #midWrapper, #botWrapper, #logoWrapper {
-    margin-left:5%;
-    margin-right:15%;
-    border: 2px solid #73AD21;
-    border-radius:2px;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+.videoOverlay {
+	background-color: #E0E0E0;
+	color: black;
+	font-size: 16px;
+	height: 30px;
+	padding-top:4px;
+	border: 3px solid grey;
+	border-radius:3px;
+}
+.videoLink {
+	text-decoration: underline;
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
 }
 #logoWrapper {
 	height: 75px;
