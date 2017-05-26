@@ -8,4 +8,4 @@ Using:
 Libs:
 - jQuery, Bootstrap, Video.js, Video.js-Overlay, XML2JSON
 
-![Screenshot](data/img/screenshot.png "Screenshot")
+![Screenshot](screenshot.png "Screenshot")
