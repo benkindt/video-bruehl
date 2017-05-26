@@ -2,35 +2,53 @@
 <html lang="de">
 <head>
 <meta charset="utf-8" />
+<!-- importing style-sheets -->
 <link href="../lib/video-js.css" rel="stylesheet">
 <link href="../lib/bootstrap-3.3.7.min.css" rel="stylesheet">
 <link href="../lib/ol.css" rel="stylesheet">
 <link href="../css/bruehl-style.css" rel="stylesheet">
+<link href="../lib/videojs-overlay.css" rel="stylesheet">
+<!-- importing google font for header text -->
+<link href="https://fonts.googleapis.com/css?family=Sofia"
+	rel='stylesheet'>
+<style>
+#logo {
+	font-family: 'Sofia';
+	font-size: 28px;
+}
+</style>
+<!-- importing script libs -->
 <script src="../lib/jquery-3.2.1.min.js"></script>
 <script src="../lib/bootstrap-3.3.7.min.js"></script>
 <script src="../lib/ol.js"></script>
 <script src="../lib/xml2json.js"></script>
-<title>Bruehl Player</title>
+<title>Brühl Player</title>
 </head>
 
 <body>
 	<br />
 	<div id="wrapper">
 		<div class="row" id="logoWrapper">
-			<div class="col-md-2" id="logo">Logo</div>
-			<div class="col-md-6" id="teaser">Short teaser here...</div>
-			<button id="change1">change to video1</button><button id="change2">change to video2</button>
-			<button id="getTime">get current video time</button>
-			<input id="idInput" type="text"></input><button id="showMetadata">show Metadata</button>
-			<button id="getPresentation">get presentation</button>
+			<div class="col-md-12" id="logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mein
+				Brühl - deine Stadt neu erleben</div>
+			<br />
+			<!-- some debug buttons, which are usually hidden -->
+			<!-- 			<div style="display:hidden;"> -->
+			<div>
+				<button id="change1">change to video1</button>
+				<button id="change2">change to video2</button>
+				<button id="getTime">get current video time</button>
+				<input id="idInput" type="text"></input>
+				<button id="showMetadata">show Metadata</button>
+				<button id="getPresentation">get presentation</button>
+			</div>
 		</div>
 
+		<!--  wrapper holding the videojs-player -->
 		<div class="row" id="topWrapper">
-			<div class="col-md-6" id="videoWrapper">
+			<div class="col-md-12" id="videoWrapper">
 				<video id="my-player" class="video-js" controls preload="auto"
-					width="965" height="396" poster="bruehl.jpg">
-					<!-- 					<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'> -->
-					<!-- 					<source src="http://vjs.zencdn.net/v/oceans.webm" type='video/webm'> -->
+					width="965" height="396">
 					<p class="vjs-no-js">
 						To view this video please enable JavaScript, and consider
 						upgrading to a web browser that <a
@@ -39,16 +57,12 @@
 					</p>
 				</video>
 			</div>
-			</br> </br>
-			<button id="change">changer</button>
-			</br> </br>
 		</div>
 
-		<!-- midWrapper with annotations and other infos in it -->
+		<!-- wrapper with additional infos in it -->
 		<div class="row" id="midWrapper">
 			<div class="col-md-4" id="annotationArea">
-				[#annotationArea]
-
+				<br />
 				<div class="panel panel-default">
 					<div class="panel-heading">Ort</div>
 					<div class="panel-body">
@@ -59,9 +73,15 @@
 					</div>
 				</div>
 			</div>
+			<div class="col-md-4" id="directionArea">
+				<br />
+				<div class="panel panel-default">
+					<div class="panel-heading">Gehe nach</div>
+					<div class="panel-body" id="directions"></div>
+				</div>
+			</div>
 			<div class="col-md-4" id="poiArea">
-				[#poiArea]
-
+				<br />
 				<div class="panel-group" id="accordion" role="tablist"
 					aria-multiselectable="true">
 					<div class="panel panel-default">
@@ -69,89 +89,43 @@
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion"
 									href="#collapseOne" aria-expanded="true"
-									aria-controls="collapseOne"> POI Item #1 </a>
+									aria-controls="collapseOne" id="poiHeader"> POI Item #1 </a>
 							</h4>
 						</div>
 						<!-- collapse in => aufgeklappt -->
 						<div id="collapseOne" class="panel-collapse collapse"
 							role="tabpanel" aria-labelledby="headingOne">
-							<div class="panel-body">Anim pariatur cliche reprehenderit,
-								enim eiusmod high life accusamus terry richardson ad squid. 3
-								wolf moon officia aute, non cupidatat skateboard dolor brunch.
-								Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-								tempor, sunt aliqua put a bird on it squid single-origin coffee
-								nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
-								craft beer labore wes anderson cred nesciunt sapiente ea
-								proident. Ad vegan excepteur butcher vice lomo. Leggings
-								occaecat craft beer farm-to-table, raw denim aesthetic synth
-								nesciunt you probably haven't heard of them accusamus labore
-								sustainable VHS.</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="headingTwo">
-							<h4 class="panel-title">
-								<a class="collapsed" role="button" data-toggle="collapse"
-									data-parent="#accordion" href="#collapseTwo"
-									aria-expanded="false" aria-controls="collapseTwo"> POI Item
-									#2 </a>
-							</h4>
-						</div>
-						<div id="collapseTwo" class="panel-collapse collapse"
-							role="tabpanel" aria-labelledby="headingTwo">
-							<div class="panel-body">Anim pariatur cliche reprehenderit,
-								enim eiusmod high life accusamus terry richardson ad squid. 3
-								wolf moon officia aute, non cupidatat skateboard dolor brunch.
-								Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-								tempor, sunt aliqua put a bird on it squid single-origin coffee
-								nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
-								craft beer labore wes anderson cred nesciunt sapiente ea
-								proident. Ad vegan excepteur butcher vice lomo. Leggings
-								occaecat craft beer farm-to-table, raw denim aesthetic synth
-								nesciunt you probably haven't heard of them accusamus labore
-								sustainable VHS.</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="headingThree">
-							<h4 class="panel-title">
-								<a class="collapsed" role="button" data-toggle="collapse"
-									data-parent="#accordion" href="#collapseThree"
-									aria-expanded="false" aria-controls="collapseThree"> POI
-									Item #3 </a>
-							</h4>
-						</div>
-						<div id="collapseThree" class="panel-collapse collapse"
-							role="tabpanel" aria-labelledby="headingThree">
-							<div class="panel-body">Anim pariatur cliche reprehenderit,
-								enim eiusmod high life accusamus terry richardson ad squid. 3
-								wolf moon officia aute, non cupidatat skateboard dolor brunch.
-								Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-								tempor, sunt aliqua put a bird on it squid single-origin coffee
-								nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
-								craft beer labore wes anderson cred nesciunt sapiente ea
-								proident. Ad vegan excepteur butcher vice lomo. Leggings
-								occaecat craft beer farm-to-table, raw denim aesthetic synth
-								nesciunt you probably haven't heard of them accusamus labore
-								sustainable VHS.</div>
+							<div class="panel-body" id="poiText">Anim pariatur cliche
+								reprehenderit, enim eiusmod high life accusamus terry richardson
+								ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+								dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+								3 wolf moon tempor, sunt aliqua put a bird on it squid
+								single-origin coffee nulla assumenda shoreditch et. Nihil anim
+								keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+								sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+								Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+								synth nesciunt you probably haven't heard of them accusamus
+								labore sustainable VHS.</div>
 						</div>
 					</div>
 				</div>
+			</div>
 
-			</div>
 		</div>
-		<!-- botWrapper with overview map in it -->
-		<div class="row" id="botWrapper">
-			<div class="col-md-6" id="overviewMap">
-				[#overviewMap]
-				<div id="mapid" style="width: 965px; height: 396px;"></div>
-				<button id="resetViewButton">reset view</button>
-				<script src="../js/map.js"></script>
-			</div>
+	</div>
+
+	<!-- botWrapper with overview map in it -->
+	<div class="row" id="botWrapper">
+		<div class="col-md-6" id="overviewMap">
+			<div id="mapid" style="width: 965px; height: 396px;"></div>
+			<button id="resetViewButton">reset view</button>
+			<script src="../js/map.js"></script>
 		</div>
 	</div>
 	<br />
+	<!-- importing scripts for videojs-player and our implemented customized functions (player.js) -->
 	<script src="../lib/video.js"></script>
+	<script src="../lib/videojs-overlay.js"></script>
 	<script src="../js/player.js"></script>
 </body>
 </html>

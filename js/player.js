@@ -6,14 +6,41 @@ $(document).ready(function() {
     player = videojs('my-player', {
         techOrder: ['flash', 'html5'],
         autoplay: true,
+        loop: true,
+        controlBar: false,
+        width: 768,
+        height: 432,
         sources: [{ 
             type: "video/mp4",
-            src: "http://vjs.zencdn.net/v/oceans.mp4"
-        }, {
-        	type: "video/webm",
-        	src: "http://vjs.zencdn.net/v/oceans.webm"
+            src: "http://www.steveconrad.de/interactive_media/SCF_0004.mp4"
         }]
     });
+    
+    player.overlay({
+        content: '<div class="videoOverlay">&nbsp;&nbsp;Tante-Emma-Laden&nbsp;&nbsp;</div>',
+        debug: true,
+        showBackground: false,
+        overlays: [{
+          content: '<div class="videoOverlay">&nbsp;<a class="videoLink" onClick="showPoiDetails();">The video is playing!</a>&nbsp;</div>',
+          start: 'play',
+          end: 'pause'
+        }, {
+          start: 0,
+          end: 15,
+          align: 'bottom-left'
+        }, {
+          start: 15,
+          end: 30,
+          align: 'bottom'
+        }, {
+          start: 30,
+          end: 45,
+          align: 'bottom-right'
+        }, {
+          start: 20,
+          end: 'pause'
+        }]
+      });
     
     function getXmlPresentation(){
     	console.log("getting xml-presentation...");
@@ -46,7 +73,10 @@ $(document).ready(function() {
     });
 
     $('#change2').on('click', function() {
-        
+    	changeSource({ 
+            type: "video/mp4",
+            src: "../data/vid/SCF_0001.mp4"
+        });
     });
     
     $('#getTime').on('click', function() {
@@ -54,22 +84,50 @@ $(document).ready(function() {
     });
     
     $('#showMetadata').on('click', function() {
-    	var videoObject = json['#document']['interactive_media']['videos']['video'][$('#idInput').val()];
-//    	listMetadata(videoObject);
-    	changeVideo();
+    	changeVideo($('#idInput').val());
     });
     
 });
 
-function changeVideo(){
-	var videoObject = json['#document']['interactive_media']['videos']['video']['2'];
+function changeVideo(id){
+	console.log(json['#document']['interactive_media']['videos']);
+	console.log(id);
+	var videoObject = json['#document']['interactive_media']['videos']['video'][id];
+	console.log(videoObject);
+	directionOutput(videoObject);
 	listMetadata(videoObject);
-	listPointsOfInterest(videoObject);
+//	listPointsOfInterest(videoObject);
+	var sourceFile = "../data/vid/" + videoObject['filename'];
+	console.log(sourceFile);
 	changeSource({ 
         type: "video/mp4",
-        src: "../data/vid/" + videoObject['filename']
+        src: sourceFile
     });
-	showAnnotations(videoObject);
+	showPois(videoObject);
+}
+
+function directionOutput(obj){
+	console.log("showing direction for " + obj);
+	console.log(obj.$.id);
+	var string = "";
+	// loop over the neighbours
+	for(var i = 0; i < obj["neighbours"]["neighbour"].length; i++) {
+	    var neigh = obj["neighbours"]["neighbour"][i];
+	    console.log(neigh);
+	    var direction = neigh.n_type;
+	    var directionLabel = "";
+	    if(direction == "turnleft"){
+	    	directionLabel = "Nach links";
+	    } else if (direction == "turnright") {
+	    	directionLabel = "Nach rechts";
+	    } else if (direction == "turnaround") {
+	    	directionLabel = "Nach hinten";
+	    } else if (direction == "forward") {
+	    	directionLabel = "Nach vorn";
+	    }
+	    string += "<span onclick='changeVideo(" + neigh.n_id + ")'>" + directionLabel + "</span></br>"
+	}
+	$("#directions").html(string);
 }
 
 function listMetadata(obj) {
@@ -78,16 +136,12 @@ function listMetadata(obj) {
 	$("#locationDirection").text(obj['direction_of_view']);
 }
 
-function showAnnotations(obj) {
+function showPois(obj) {
+	console.log("show pois");
 	console.log(obj);
-	// loop over the neighbours
-	for(var i = 0; i < obj["neighbours"]["neighbour"].length; i++) {
-	    var poi = obj["neighbours"]["neighbour"][i];
-	    console.log(poi);
-	}
 	// loop over the poi's
-	for(var i = 0; i < obj["neighbours"]["neighbour"].length; i++) {
-	    var poi = obj["neighbours"]["neighbour"][i];
+	for(var i = 0; i < obj["POIs"]["POI"].length; i++) {
+	    var poi = obj["POIs"]["POI"][i];
 	    console.log(poi);
 	}
 }
