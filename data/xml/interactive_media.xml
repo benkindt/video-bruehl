@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mit XMLSpy v2017 rel. 3 (x64) (http://www.altova.com) von Steve Conrad (Steve Conrad) bearbeitet -->
+<!-- Mit XMLSpy v2017 rel. 3 (x64) (http://www.altova.com) von Steve Conrad 
+	(Steve Conrad) bearbeitet -->
 <interactive_media>
 	<videos>
 		<video id="2">
 			<filename>SCF_0002.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Georgstraße</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates>50.841061, 12.923712</coordinates>
 			<pois>
 				<poi poi_id="1">
 					<name>Brühltor</name>
-					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
-					<URL/>
+					<description>Lorem ipsum dolor sit amet, consetetur sadipscing
+						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+						takimata sanctus est Lorem ipsum dolor sit amet.</description>
+					<URL />
 					<poi_cords>
 						<x>65</x>
 						<y>65</y>
@@ -41,19 +46,19 @@
 		</video>
 		<video id="3">
 			<filename>SCF_0003.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Georgstraße</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.841061, 12.923712</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -78,19 +83,19 @@
 		</video>
 		<video id="4">
 			<filename>SCF_0004.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Georgstraße</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.841061, 12.923712</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -123,19 +128,19 @@
 		</video>
 		<video id="5">
 			<filename>SCF_0005.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Untere Aktienstraße</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -168,19 +173,19 @@
 		</video>
 		<video id="6">
 			<filename>SCF_0006.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Untere Aktienstraße</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -221,19 +226,19 @@
 		</video>
 		<video id="7">
 			<filename>SCF_0007.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Untere Aktienstraße</street>
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -266,19 +271,19 @@
 		</video>
 		<video id="8">
 			<filename>SCF_0008.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Untere Aktienstraße</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates> 50.841719, 12.924182</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -319,19 +324,19 @@
 		</video>
 		<video id="9">
 			<filename>SCF_0009.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Hermannstraße</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -380,19 +385,19 @@
 		</video>
 		<video id="10">
 			<filename>SCF_0010.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Hermannstraße</street>
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -425,19 +430,19 @@
 		</video>
 		<video id="11">
 			<filename>SCF_0011.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Hermannstraße</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -470,19 +475,19 @@
 		</video>
 		<video id="12">
 			<filename>SCF_0012.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Hermannstraße</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates> 50.842556, 12.924721</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -523,19 +528,19 @@
 		</video>
 		<video id="13">
 			<filename>SCF_0013.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates> 50.843325, 12.925230</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -568,19 +573,19 @@
 		</video>
 		<video id="15">
 			<filename>SCF_0015.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates> 50.843325, 12.925230</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -613,15 +618,19 @@
 		</video>
 		<video id="16">
 			<filename>SCF_0016.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates> 50.843325, 12.925230</coordinates>
 			<pois>
 				<poi poi_id="1">
 					<name>Rosa-Luxemburg-Grundschule am Brühl</name>
-					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
+					<description>Lorem ipsum dolor sit amet, consetetur sadipscing
+						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+						takimata sanctus est Lorem ipsum dolor sit amet.</description>
 					<URL></URL>
 					<poi_cords>
 						<x>50</x>
@@ -650,16 +659,20 @@
 		</video>
 		<video id="17">
 			<filename>SCF_0017.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.844019, 12.925630</coordinates>
 			<pois>
 				<poi poi_id="1">
 					<name>Schriftzug "Zuhause"</name>
-					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
-					<URL/>
+					<description>Lorem ipsum dolor sit amet, consetetur sadipscing
+						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+						takimata sanctus est Lorem ipsum dolor sit amet.</description>
+					<URL />
 					<poi_cords>
 						<x>35</x>
 						<y>40</y>
@@ -703,19 +716,19 @@
 		</video>
 		<video id="18">
 			<filename>SCF_0018.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -756,19 +769,19 @@
 		</video>
 		<video id="19">
 			<filename>SCF_0019.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -801,19 +814,19 @@
 		</video>
 		<video id="20">
 			<filename>SCF_0020.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -846,19 +859,19 @@
 		</video>
 		<video id="21">
 			<filename>SCF_0021.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.844125, 12.925695</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -899,19 +912,19 @@
 		</video>
 		<video id="22">
 			<filename>SCF_0022.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Elisenstraße</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.844226, 12.925768</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -952,20 +965,21 @@
 		</video>
 		<video id="24">
 			<filename>SCF_0024.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>
-	Brühl/Zöllnerstraße/Zöllnerplatz</street>
+				Brühl/Zöllnerstraße/Zöllnerplatz
+			</street>
 			<direction_of_view>SSW</direction_of_view>
 			<coordinates>50.845014, 12.926262</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -1006,19 +1020,19 @@
 		</video>
 		<video id="25">
 			<filename>SCF_0025.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Zöllnerstraße/Zöllnerplatz</street>
 			<direction_of_view>OSO</direction_of_view>
 			<coordinates>50.845003, 12.926310</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -1051,19 +1065,19 @@
 		</video>
 		<video id="26">
 			<filename>SCF_0026.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Zöllnerstraße/Zöllnerplatz</street>
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates>50.845003, 12.926310</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -1104,19 +1118,19 @@
 		</video>
 		<video id="27">
 			<filename>SCF_0027.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Zöllnerstraße/Zöllnerplatz</street>
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.845003, 12.926310</coordinates>
 			<pois>
 				<poi poi_id="">
-					<name/>
-					<description/>
-					<URL/>
+					<name />
+					<description />
+					<URL />
 					<poi_cords>
-						<x/>
-						<y/>
+						<x />
+						<y />
 					</poi_cords>
 				</poi>
 			</pois>
@@ -1157,16 +1171,21 @@
 		</video>
 		<video id="28">
 			<filename>SCF_0028.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Zöllnerplatz</street>
 			<direction_of_view>S</direction_of_view>
 			<coordinates>50.845396, 12.926109</coordinates>
 			<pois>
 				<poi poi_id="1">
 					<name>Der verrückte Stuhl</name>
-					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
-					<URL>http://www.stadtbibliothek-chemnitz.de/skulpturen/pmwiki.php?n=Main.DerVerr%FCckteStuhl</URL>
+					<description>Lorem ipsum dolor sit amet, consetetur sadipscing
+						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+						takimata sanctus est Lorem ipsum dolor sit amet.</description>
+					<URL>http://www.stadtbibliothek-chemnitz.de/skulpturen/pmwiki.php?n=Main.DerVerr%FCckteStuhl
+					</URL>
 					<poi_cords>
 						<x>60</x>
 						<y>45</y>
@@ -1186,16 +1205,21 @@
 		</video>
 		<video id="30">
 			<filename>SCF_0030.MP4</filename>
-			<filesize/>
-			<length/>
+			<filesize />
+			<length />
 			<street>Brühl/Hermannstraße</street>
 			<direction_of_view>NW</direction_of_view>
 			<coordinates>50.842637, 12.924710</coordinates>
 			<pois>
 				<poi poi_id="1">
 					<name>Urteil des Paris</name>
-					<description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
-					<URL>http://www.stadtbibliothek-chemnitz.de/skulpturen/pmwiki.php?n=Main.UrteilDesParis</URL>
+					<description>Lorem ipsum dolor sit amet, consetetur sadipscing
+						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+						takimata sanctus est Lorem ipsum dolor sit amet.</description>
+					<URL>http://www.stadtbibliothek-chemnitz.de/skulpturen/pmwiki.php?n=Main.UrteilDesParis
+					</URL>
 					<poi_cords>
 						<x>50</x>
 						<y>30</y>

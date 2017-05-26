@@ -14,7 +14,7 @@
 <style>
 #logo {
 	font-family: 'Sofia';
-	font-size: 28px;
+	font-size: 38px;
 }
 </style>
 <!-- importing script libs -->
@@ -34,11 +34,9 @@
 			<br />
 			<!-- some debug buttons, which are usually hidden -->
 			<!-- 			<div style="display:hidden;"> -->
-			<div>
-				<button id="change1">change to video1</button>
-				<button id="change2">change to video2</button>
+			<div style="display:none;">
 				<button id="getTime">get current video time</button>
-				<input id="idInput" type="text"></input>
+				<input id="idInput" type="text" value="4"></input>
 				<button id="showMetadata">show Metadata</button>
 				<button id="getPresentation">get presentation</button>
 			</div>
@@ -60,16 +58,21 @@
 		</div>
 
 		<!-- wrapper with additional infos in it -->
-		<div class="row" id="midWrapper">
+		<div id="init" style="font-size: 20px; margin-left: 280px;">
+			<br />
+			Willkommen am Brühl!
+			<button style="margin-left:15px;"
+				onclick="initFirstVideo()">Tour starten</button>
+		</div>
+		<div class="row" id="midWrapper" style="visibility: hidden;">
 			<div class="col-md-4" id="annotationArea">
 				<br />
 				<div class="panel panel-default">
 					<div class="panel-heading">Ort</div>
 					<div class="panel-body">
-						Bezeichnung: <span id="locationName">Ecke
-							Brühl/Zöllnerstraße</span> <br /> Koordinaten: <span
-							id="locationCoordinates">50.805123, 12.900771</span> <br />
-						Blickrichtung: <span id="locationDirection">Nord-Ost</span>
+						Bezeichnung: <span id="locationName">Ecke Brühl/Zerstraße</span> <br />
+						Koordinaten: <span id="locationCoordinates">50.805123,
+							12.900771</span> <br /> Blickrichtung: <span id="locationDirection">Nord-Ost</span>
 					</div>
 				</div>
 			</div>
@@ -78,20 +81,25 @@
 				<div class="panel panel-default">
 					<div class="panel-heading">Gehe nach</div>
 					<div class="panel-body" id="directions">
-						<table style="margin:auto;">
-							<tr style="height:25px;">
-								<td style="width:30px; cursor:pointer;" id="frontleft"><span class="arrows" style="padding-top: 10px; padding-left: 10px;">&#8598;</span></td>
-								<td style="width:30px;cursor:pointer;" id="front"><span class="arrows">&#8593;</span>vorne</td>
+						<table style="margin: auto;">
+							<tr style="height: 25px;">
+								<td style="width: 30px; cursor: pointer;" id="frontleft"><span
+									class="arrows" style="padding-top: 10px; padding-left: 10px;">&#8598;</span></td>
+								<td style="width: 30px; cursor: pointer;" id="front"><span
+									class="arrows">&#8593;</span>vorne</td>
 								<td><span></span></td>
 							</tr>
 							<tr>
-								<td style="width:30px;cursor:pointer;" id="left"><span class="arrows">&#8592;</span>links</td>
+								<td style="width: 30px; cursor: pointer;" id="left"><span
+									class="arrows">&#8592;</span>links</td>
 								<td></td>
-								<td style="width:30px;cursor:pointer;" id="right"><span class="arrows">&#8594;</span>rechts</td>
+								<td style="width: 30px; cursor: pointer;" id="right"><span
+									class="arrows">&#8594;</span>rechts</td>
 							</tr>
 							<tr>
 								<td></td>
-								<td style="width:30px;cursor:pointer;" id="turnaround"><span class="arrows">&#8595;</span>drehen</td>
+								<td style="width: 30px; cursor: pointer;" id="turnaround"><span
+									class="arrows">&#8595;</span>drehen</td>
 								<td></td>
 							</tr>
 						</table>
@@ -131,16 +139,18 @@
 
 		</div>
 	</div>
-
+	
+	<br />
 	<!-- botWrapper with overview map in it -->
-	<div class="row" id="botWrapper">
+	<div class="row" id="botWrapper" style="display: none;">
 		<div class="col-md-6" id="overviewMap">
 			<div id="mapid" style="width: 965px; height: 396px;"></div>
 			<button id="resetViewButton">reset view</button>
 			<script src="../js/map.js"></script>
 		</div>
 	</div>
-	<br />
+	<button style="visibility: hidden; margin-left: 100px;" id="goBack" onClick="resetVideo()">Go back to start</button>
+	<br /><br />
 	<!-- importing scripts for videojs-player and our implemented customized functions (player.js) -->
 	<script src="../lib/video.js"></script>
 	<script src="../lib/videojs-overlay.js"></script>
