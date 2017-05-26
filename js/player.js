@@ -18,7 +18,8 @@ $(document).ready(function() {
     
     function getXmlPresentation(){
     	console.log("getting xml-presentation...");
-    	// XML to JSON with jquery and xml2json (https://github.com/sparkbuzz/jQuery-xml2json)    
+    	// XML to JSON with jquery and xml2json
+		// (https://github.com/sparkbuzz/jQuery-xml2json)
         $.ajax({
             url: '../data/xml/interactive_media.xml',
             dataType: 'xml',
@@ -55,6 +56,8 @@ $(document).ready(function() {
 
 // function which handles all changes needed when a video is changed
 function changeVideo(id){
+	// clear existing overlays
+	clearOverlays();
 	// gets the video-object for which data will be processed
 	var videoObject = getVideoObject(id);
 	console.log(videoObject);
@@ -62,14 +65,14 @@ function changeVideo(id){
 	listMetadata(videoObject);
 	// middle box under the player
 	directionOutput(videoObject);
-	// right box under the player
-	showPois(videoObject);
-//	listPointsOfInterest(videoObject);
+// listPointsOfInterest(videoObject);
 	// change the video in the player
 	changeSource({ 
         type: "video/mp4",
         src: "../data/vid/" + videoObject['filename']
     });
+	// right box under the player
+	showPois(videoObject);
 }
 
 function initFirstVideo(){
@@ -143,38 +146,36 @@ function showPois(obj) {
 	console.log("shows poi");
 	console.log(obj);
 	// loop over the poi's
-	for(var i = 0; i < obj["pois"]["poi"].length; i++) {
-	    var poi = obj["pois"]["poi"][i];
-	    console.log(poi);
-	}
+	    var poi = obj["pois"]["poi"];
+	    if(poi.$.id != ""){
+	    	console.log("POI OBJECT");
+		    console.log(poi);
+		    // setting position
+		    var value = poi["poi_cords"]["x"];
+		    if(value != ""){
+		    	if(value < 33){
+			    	createOverlay("bottom-left", poi);
+			    } else if (value < 67) {
+			    	createOverlay("bottom", poi);
+			    } else {
+			    	createOverlay("bottom-right", poi);
+			    }
+		    }
+	    }
 }
 
-function createOverlay() {
+// overlays appear shortly after video started
+function createOverlay(position, obj) {
 	player.overlay({
-        content: '<div class="videoOverlay">&nbsp;&nbsp;Tante-Emma-Laden&nbsp;&nbsp;</div>',
+        content: '<div class="videoOverlay">&nbsp;&nbsp;' + obj["name"] + '&nbsp;&nbsp;</div>',
         debug: true,
         showBackground: false,
-        overlays: [{
-          content: '<div class="videoOverlay">&nbsp;<a class="videoLink" onClick="showPoiDetails();">The video is playing!</a>&nbsp;</div>',
-          start: 'play',
-          end: 'pause'
-        }, {
-          start: 0,
-          end: 15,
-          align: 'bottom-left'
-        }, {
-          start: 15,
-          end: 30,
-          align: 'bottom'
-        }, {
-          start: 30,
-          end: 45,
-          align: 'bottom-right'
-        }, {
-          start: 20,
-          end: 'pause'
-        }]
+        start: 2,
+        align: position
       });
+	$("#poiHeader").text(obj["name"]);
+	$("#poiUrl").html('<a href="' + obj["URL"] + '">Link zur Webseite</a><br/>');
+	$("#poiText").text(obj["description"]);
 }
 	
 function changeSource(src) {
@@ -195,4 +196,8 @@ function changeSource(src) {
 
 function getTime(){
 	return player.currentTime();
+}
+
+function clearOverlays(){
+	player.overlay();
 }
