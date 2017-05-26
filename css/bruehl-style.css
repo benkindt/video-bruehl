@@ -35,3 +35,8 @@ body {
 #logoWrapper {
 	height: 75px;
 }
+.arrows {
+	font-weight: bold;
+	font-size: 20px;
+	width: 50px;
+}

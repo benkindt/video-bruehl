@@ -92,7 +92,8 @@ $(document).ready(function() {
 function changeVideo(id){
 	console.log(json['#document']['interactive_media']['videos']);
 	console.log(id);
-	var videoObject = json['#document']['interactive_media']['videos']['video'][id];
+//	var videoObject = json['#document']['interactive_media']['videos']['video'][id];
+	var videoObject = getVideoObject(id);
 	console.log(videoObject);
 	directionOutput(videoObject);
 	listMetadata(videoObject);
@@ -106,10 +107,29 @@ function changeVideo(id){
 	showPois(videoObject);
 }
 
+function getVideoObject(id){
+	for(var i = 0; i < json['#document']['interactive_media']['videos']['video'].length; i++) {
+		console.log("found next video object");
+		var obj = json['#document']['interactive_media']['videos']['video'][i];
+		if(obj.$.id == id){
+			return obj;
+		}
+	}
+}
+
 function directionOutput(obj){
 	console.log("showing direction for " + obj);
-	console.log(obj.$.id);
 	var string = "";
+	$("#left").css("visibility", "hidden");
+	$("#left").css("cursor", "auto");
+	$("#right").css("visibility", "hidden");
+	$("#right").css("cursor", "auto");
+	$("#turnaround").css("visibility", "hidden");
+	$("#turnaround").css("cursor", "auto");
+	$("#front").css("visibility", "hidden");
+	$("#front").css("cursor", "auto");
+	$("#frontleft").css("visibility", "hidden");
+	$("#frontleft").css("cursor", "auto");
 	// loop over the neighbours
 	for(var i = 0; i < obj["neighbours"]["neighbour"].length; i++) {
 	    var neigh = obj["neighbours"]["neighbour"][i];
@@ -118,16 +138,33 @@ function directionOutput(obj){
 	    var directionLabel = "";
 	    if(direction == "turnleft"){
 	    	directionLabel = "Nach links";
+	    	$("#left").css("visibility", "visible");
+	    	$("#left").css("cursor", "pointer");
+	    	$("#left").attr("onclick", "changeVideo(" + neigh.n_id + ")");
 	    } else if (direction == "turnright") {
 	    	directionLabel = "Nach rechts";
+	    	$("#right").css("visibility", "visible");
+	    	$("#right").css("cursor", "pointer");
+	    	$("#right").attr("onclick", "changeVideo(" + neigh.n_id + ")");
 	    } else if (direction == "turnaround") {
 	    	directionLabel = "Nach hinten";
+	    	$("#turnaround").css("visibility", "visible");
+	    	$("#turnaround").css("cursor", "pointer");
+	    	$("#turnaround").attr("onclick", "changeVideo(" + neigh.n_id + ")");
 	    } else if (direction == "forward") {
 	    	directionLabel = "Nach vorn";
+	    	$("#front").css("visibility", "visible");
+	    	$("#front").css("cursor", "pointer");
+	    	$("#front").attr("onclick", "changeVideo(" + neigh.n_id + ")");
+	    } else if (direction == "frontleft") {
+	    	directionLabel = "Nach links vorn"
+	    	$("#frontleft").css("visibility", "visible");
+	    	$("#frontleft").css("cursor", "pointer");
+	    	$("#frontleft").attr("onclick", "changeVideo(" + neigh.n_id + ")");
 	    }
-	    string += "<span onclick='changeVideo(" + neigh.n_id + ")'>" + directionLabel + "</span></br>"
+//	    string += "<span class='videoLink' onclick='changeVideo(" + neigh.n_id + ")'>" + directionLabel + "</span></br>"
 	}
-	$("#directions").html(string);
+//	$("#directions").html(string);
 }
 
 function listMetadata(obj) {
