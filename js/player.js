@@ -58,6 +58,8 @@ $(document).ready(function() {
 function changeVideo(id){
 	// clear existing overlays
 	clearOverlays();
+	// hide poi area
+	$("#poiArea").css("visibility", "hidden");
 	// gets the video-object for which data will be processed
 	var videoObject = getVideoObject(id);
 	console.log(videoObject);
@@ -166,6 +168,7 @@ function showPois(obj) {
 
 // overlays appear shortly after video started
 function createOverlay(position, obj) {
+	$("#poiArea").css("visibility", "visible");
 	player.overlay({
         content: '<div class="videoOverlay">&nbsp;&nbsp;' + obj["name"] + '&nbsp;&nbsp;</div>',
         debug: true,
@@ -199,5 +202,5 @@ function getTime(){
 }
 
 function clearOverlays(){
-	player.overlay();
+//	player.overlay();
 }
