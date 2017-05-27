@@ -71,7 +71,7 @@ function changeVideo(id){
 	// change the video in the player
 	changeSource({ 
         type: "video/mp4",
-        src: "../data/vid/" + videoObject['filename']
+        src: "http://www.steveconrad.de/interactive_media/" + videoObject['filename']
     });
 	// right box under the player
 	showPois(videoObject);
