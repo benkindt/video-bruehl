@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="interactive_media">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="videos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="video">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="filename" type="xs:string" />
+                    <xs:element name="filesize" />
+                    <xs:element name="length" />
+                    <xs:element name="street" type="xs:string" />
+                    <xs:element name="direction_of_view" type="xs:string" />
+                    <xs:element name="coordinates" type="xs:string" />
+                    <xs:element name="pois">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="poi">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="name" type="xs:string" />
+                                <xs:element name="description" type="xs:string" />
+                                <xs:element name="URL" type="xs:string" />
+                                <xs:element name="poi_cords">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="x" type="xs:string" />
+                                      <xs:element name="y" type="xs:string" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="poi_id" type="xs:integer" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="neighbours">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="neighbour">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="n_cords">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="x" type="xs:unsignedByte" />
+                                      <xs:element name="y" type="xs:unsignedByte" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="n_id" type="xs:integer" />
+                                <xs:element name="n_type" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:integer" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
