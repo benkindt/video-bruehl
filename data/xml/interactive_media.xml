@@ -11,19 +11,15 @@
 			<direction_of_view>WNW</direction_of_view>
 			<coordinates>50.841061, 12.923712</coordinates>
 			<pois>
-				<poi poi_id="1">
-					<name>Brühltor</name>
-					<description>Lorem ipsum dolor sit amet, consetetur sadipscing
-						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-						takimata sanctus est Lorem ipsum dolor sit amet.</description>
-					<URL />
-					<poi_cords>
-						<x>65</x>
-						<y>65</y>
-					</poi_cords>
-				</poi>
+        <poi poi_id="">
+          <name />
+          <description />
+          <URL />
+          <poi_cords>
+            <x />
+            <y />
+          </poi_cords>
+        </poi>
 			</pois>
 			<neighbours>
 				<neighbour>
@@ -89,15 +85,15 @@
 			<direction_of_view>NNO</direction_of_view>
 			<coordinates>50.841061, 12.923712</coordinates>
 			<pois>
-				<poi poi_id="">
-					<name />
-					<description />
-					<URL />
-					<poi_cords>
-						<x />
-						<y />
-					</poi_cords>
-				</poi>
+        <poi poi_id="1">
+          <name>Brühltor</name>
+          <description>Das Brühltor soll noch in diesem Jahr renoviert werden. Außerdem ist geplant das Brühltor für die Versorgung des Boulevards mit einem freien WLAN zu nutzen.</description>
+          <URL>http://www.chemnitz-bruehl.de/</URL>
+          <poi_cords>
+            <x>65</x>
+            <y>65</y>
+          </poi_cords>
+        </poi>
 			</pois>
 			<neighbours>
 				<neighbour>
@@ -370,7 +366,7 @@
 						<x>50</x>
 						<y>35</y>
 					</n_cords>
-					<n_id>14</n_id>
+					<n_id>13</n_id>
 					<n_type>forward</n_type>
 				</neighbour>
 				<neighbour>
@@ -626,12 +622,8 @@
 			<pois>
 				<poi poi_id="1">
 					<name>Rosa-Luxemburg-Grundschule am Brühl</name>
-					<description>Lorem ipsum dolor sit amet, consetetur sadipscing
-						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-						takimata sanctus est Lorem ipsum dolor sit amet.</description>
-					<URL></URL>
+					<description>Die Rosa-Luxemburg-Grundschule am Brühl wird derzeit kernsaniert und ist ab dem kommenden Schuljahr wieder geöffnet.</description>
+					<URL>https://schuldatenbank.sachsen.de/index.php?id=420&amp;extern_eid=1418</URL>
 					<poi_cords>
 						<x>50</x>
 						<y>30</y>
@@ -667,11 +659,7 @@
 			<pois>
 				<poi poi_id="1">
 					<name>Schriftzug "Zuhause"</name>
-					<description>Lorem ipsum dolor sit amet, consetetur sadipscing
-						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-						takimata sanctus est Lorem ipsum dolor sit amet.</description>
+					<description>Der "Zuhause"-Schriftzug der Künstler Frank Raßbach und Helena Rossner, welches im Rahmen des Projektes „Kunst im Kontext des Stadtumbaus“ entstanden ist, wurde ursprünglich auf der Brachfläche Heinrich-Zille-Straße / Straße der Nationen aufgestellt. Nachdem er lange Zeit von der Stadt Chemnitz eingelagert worden war, fand er nun auf dem Brühl Boulevard sein neues "Zuhause".</description>
 					<URL />
 					<poi_cords>
 						<x>35</x>
@@ -693,7 +681,7 @@
 						<x>50</x>
 						<y>10</y>
 					</n_cords>
-					<n_id>17</n_id>
+					<n_id>18</n_id>
 					<n_type>turnaround</n_type>
 				</neighbour>
 				<neighbour>
@@ -1179,11 +1167,7 @@
 			<pois>
 				<poi poi_id="1">
 					<name>Der verrückte Stuhl</name>
-					<description>Lorem ipsum dolor sit amet, consetetur sadipscing
-						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-						takimata sanctus est Lorem ipsum dolor sit amet.</description>
+					<description>Die moderne Metallplastik Der Verrückte Stuhl entstand im Rahmen der Neugestaltung des Zöllnerplatzes und wurde am 29.6.2000 eingeweiht. Die Idee für den metallenen Stuhl stammt von Mitarbeitern des Ingenieurbüros ibb Bauwesen Chemnitz.</description>
 					<URL>http://www.stadtbibliothek-chemnitz.de/skulpturen/pmwiki.php?n=Main.DerVerr%FCckteStuhl
 					</URL>
 					<poi_cords>
@@ -1213,11 +1197,7 @@
 			<pois>
 				<poi poi_id="1">
 					<name>Urteil des Paris</name>
-					<description>Lorem ipsum dolor sit amet, consetetur sadipscing
-						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-						magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-						justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-						takimata sanctus est Lorem ipsum dolor sit amet.</description>
+					<description>Bei der aus vier Figuren bestehenden Gruppe Urteil des Paris von Wilfried Fitzenreiter handelt es sich um eine Auftragsarbeit der Stadt Karl-Marx-Stadt, die 1979 fertig gestellt wurde. Sie wurde zur Einweihung des Brühl-Boulevards 1980 aufgestellt. Der Künstler verarbeitete in der Figurengruppe die griechische Sage von Trojas Königssohn Paris, der im Streit zwischen den Göttinnen Aphrodite, Athene und Hera entscheiden muss. Der Schönsten von ihnen soll er einen goldenen Apfel schenken.</description>
 					<URL>http://www.stadtbibliothek-chemnitz.de/skulpturen/pmwiki.php?n=Main.UrteilDesParis
 					</URL>
 					<poi_cords>
