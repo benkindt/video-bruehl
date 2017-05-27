@@ -111,6 +111,29 @@ function directionOutput(obj){
 	$("#frontleft").css("visibility", "hidden");
 	$("#frontleft").css("cursor", "auto");
 	// loop over the neighbours
+	var neigh = obj["neighbours"]["neighbour"];
+	var direction = neigh.n_type;
+	if(direction == "turnleft"){
+		$("#left").css("visibility", "visible");
+		$("#left").css("cursor", "pointer");
+		$("#left").attr("onclick", "changeVideo(" + neigh.n_id + ")");
+	} else if (direction == "turnright") {
+		$("#right").css("visibility", "visible");
+		$("#right").css("cursor", "pointer");
+		$("#right").attr("onclick", "changeVideo(" + neigh.n_id + ")");
+	} else if (direction == "turnaround") {
+		$("#turnaround").css("visibility", "visible");
+		$("#turnaround").css("cursor", "pointer");
+		$("#turnaround").attr("onclick", "changeVideo(" + neigh.n_id + ")");
+	} else if (direction == "forward") {
+		$("#front").css("visibility", "visible");
+		$("#front").css("cursor", "pointer");
+		$("#front").attr("onclick", "changeVideo(" + neigh.n_id + ")");
+	} else if (direction == "frontleft") {
+		$("#frontleft").css("visibility", "visible");
+		$("#frontleft").css("cursor", "pointer");
+		$("#frontleft").attr("onclick", "changeVideo(" + neigh.n_id + ")");
+	}	
 	for(var i = 0; i < obj["neighbours"]["neighbour"].length; i++) {
 	    var neigh = obj["neighbours"]["neighbour"][i];
 	    var direction = neigh.n_type;

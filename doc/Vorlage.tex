@@ -330,15 +330,7 @@
 %======================================================================
 %	Literaturverzeichnis
 %======================================================================
-\cleardoublepage
- \thispagestyle{empty}
-\begin{flushleft}
-\manualmark
-\markboth{Literaturverzeichnis}{Literaturverzeichnis}
-\bibliography{literatur}
-\bibliographystyle{user}
-\cleardoublepage
-\end{flushleft}
+
 %======================================================================
 %	Thesen
 %======================================================================
@@ -348,33 +340,13 @@
 %======================================================================
 %	Selbstständigkeitserklärung
 %======================================================================
-\chapter*{Selbstständigkeitserklärung}
 
-Hiermit erkläre ich, dass ich die vorliegende Arbeit
-selbstständig angefertigt, nicht anderweitig zu Prüfungszwecken vorgelegt und
-keine anderen als die angegebenen Hilfsmittel verwendet habe. Sämtliche 
-wissentlich verwendete Textausschnitte, Zitate oder Inhalte anderer Verfasser 
-wurden ausdrücklich als solche gekennzeichnet.\\[2ex]
-\dcplace, den \dcdate\\[6ex]
-\flushleft
-\newlength\us
-\settowidth{\us}{-\dcauthorfirstname~\dcauthorlastname-}
-\begin{tabular}{p{\us}}\hline
-\centering\footnotesize \dcauthorfirstname~\dcauthorlastname
-\end{tabular}
 
 %======================================================================
 %	Anhang
 %======================================================================
 
 
-\part*{Anhang}
-\cleardoublepage
-\begin{appendix}
-	
-\include{B/Anhang}
-
-\end{appendix}
 
 \end{document}
 
