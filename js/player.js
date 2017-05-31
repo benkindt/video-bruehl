@@ -12,7 +12,8 @@ $(document).ready(function() {
         height: 432,
         sources: [{ 
             type: "video/mp4",
-            src: "http://www.steveconrad.de/interactive_media/SCF_0004.mp4"
+            // this is the init video
+            src: "http://www.steveconrad.de/interactive_media/SCF_0004.MP4"
         }]
     });
     
