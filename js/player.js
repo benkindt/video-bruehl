@@ -226,5 +226,11 @@ function getTime(){
 }
 
 function clearOverlays(){
-//	player.overlay();
+	player.overlay({
+        content: " ",
+        showBackground: false,
+        start: 200,
+        end: 201,
+        align: "bottom"
+      });
 }
